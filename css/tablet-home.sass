@@ -1,0 +1,165 @@
+@media (max-width: 800px)
+  .wrapper
+    width: 90%
+    max-width: 800px
+    margin: 0 auto
+    position: relative
+
+  .header
+    height: 130px
+    padding: 10px 3px 0 3px
+    width: 100%
+    .logo
+      position: absolute
+      top: 20px
+      left: 0
+    .breadcrumbs
+      margin: 80px 0 0 2%
+      padding: 0 10px
+    .registration
+      margin: 80px 2% 0 0
+
+  aside
+    height: auto
+    width: 100%
+    @include bord-rad(7px)
+    -webkit-box-shadow: none
+    -moz-box-shadow: none
+    box-shadow: none
+    float: none
+    position: static
+    overflow: hidden
+    padding-bottom: 20px
+    margin-bottom: 10px
+    .search
+      width: 50%
+      padding: 8px 2% 0 2%
+    .main-navigation
+      padding-top: 20px
+      li
+        width: 24%
+
+  .content
+    width: 100%
+    height: auto
+    margin-left: 0
+    position: static
+    -webkit-box-shadow: none
+    -moz-box-shadow: none
+    box-shadow: none
+    @include bord-rad(7px)
+    border: 3px solid #5b5b5b
+    .soon-news-wrapper
+      height: auto
+      padding: 21px
+      border-bottom: 1px solid #e5e5e5
+      .soon
+        width: auto
+        float: none
+        overflow: hidden
+        padding-bottom: 20px
+        border-bottom: 1px solid #e5e5e5
+        .soon-title
+          padding: 16px 0 0 0
+        article
+          width: 100%
+          padding: 10px 0 0 0
+          p
+            width: 100%
+            float: right
+          .poster
+            margin-top: 10px
+            float: left
+      .news
+        width: auto
+        float: none
+        padding-right: 0
+        border-top: 1px solid #ffffff
+        .news-title
+          height: 64px
+          padding: 16px 0 0 0
+        .news-block-wrapper
+          overflow-y: hidden
+          height: auto
+          padding-bottom: 0
+          .news-block
+            overflow: hidden
+            margin: 10px 0
+          .mobile-none
+            display: none
+    .pagination
+      height: auto
+      padding: 40px 0
+      width: auto
+
+  .footer
+    height: 65px
+    width: 100%
+    margin-top: 53px
+    padding: 0 20px
+
+@media (max-width: 980px)
+  .content
+    .poster-menu
+      ul
+        li
+          h2
+            font-size: 10px
+          .poster-menu-hover
+            h2
+              font-size: 10px
+            .box-shadow-block
+              .poster-menu-hover-block
+                padding: 14px 0 18px 0
+                .hover-elements
+                  width: 50%
+                  padding: 0 5px
+                  margin: 0 0 10px 0
+                  span
+                    font-size: 8px
+                    padding-left: 5px
+
+@media (max-width: 1162px)
+  .content
+    .poster-menu
+      ul
+        li
+          .poster-menu-hover
+            .box-shadow-block
+              .poster-menu-hover-block
+                padding: 14px 0 18px 0
+                .hover-elements
+                  width: 50%
+                  padding: 0 5px
+                  margin: 0 0 10px 0
+                  span
+                    font-size: 8px
+                    padding-left: 5px
+
+@media (max-width: 1333px)
+  aside
+    .sidebar-filter
+      padding: 10px 10px 0 10px
+      li
+        height:  30px
+        padding: 0 10px
+        width: 100%
+      li:after
+        content: ""
+        margin: 0
+      li:first-child
+        height:  30px
+        padding: 0 10px
+      li:first-child:after
+        content: ""
+        margin: 0
+      li:last-child
+        height:  30px
+        padding: 0 10px
+      li:last-child:after
+        content: ""
+        margin: 0
+
+
+
+
